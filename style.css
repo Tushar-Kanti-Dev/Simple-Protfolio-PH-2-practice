@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1000px;
+    margin: 2rem auto;
+}
+
+.header-item {
+    border-left: 3px solid sandybrown;
+}
+
+.header-item h1 {
+    margin-left: 1rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: rgb(255, 89, 89);
+    padding: .4rem 1.3rem;
+    margin-top: 1rem;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.header-container {
+    display: flex;
+}
+
+.left-header {
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.right-header {
+    width: 50%;
+}
+
+.right-header img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: -5rem;
+}
+
+
+/* section one ends here  */
+
+.mission-container {
+    display: flex;
+}
+
+#header-section-2 {
+    text-align: center;
+    margin-left: 1rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.mission-item {
+    margin: 0 1rem;
+    padding: .5rem;
+    text-align: justify;
+}
+
+#mission_vission_goal {
+    width: 50%;
+    margin-bottom: .5rem;
+}
+
+.mission-item h2 {
+    margin-bottom: 1rem;
+}
+
+.mission {
+    background-color: rgba(198, 230, 241, 0.396);
+}
+
+.vission,
+.goal {
+    background-color: rgba(241, 188, 188, 0.322);
+}
+
+
+/* vission mission goal section ends here  */
+
+.develop-container {
+    display: flex;
+    margin-top: 5rem;
+    z-index: 100;
+}
+
+.left-develop img {
+    width: 100%;
+    z-index: 100;
+}
+
+.right-develop {
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.right-develop h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#devilop-section {
+    position: relative;
+    z-index: 100;
+}
+
+.develop-ring img {
+    position: absolute;
+    width: 13%;
+    margin-top: 5rem;
+    margin-left: -6rem;
+    z-index: -1;
+}
+
+
+/* develop section ends here  */
+
+.community-container {
+    display: flex;
+    margin-top: 3rem;
+    position: relative;
+    z-index: 100;
+}
+
+.community-item {
+    width: 60%;
+    margin-top: 5rem;
+}
+
+.community-item-img {
+    width: 40%;
+    margin-left: 3rem;
+}
+
+.community-item-img img {
+    width: 80%;
+}
+
+.community-ring {
+    position: absolute;
+    z-index: -1;
+}
+
+.community-ring img {
+    width: 16%;
+    margin-left: 52rem;
+    margin-top: 13rem;
+}
+
+
+/* community section ends here  */
+
+.corona-container {
+    display: flex;
+}
+
+.app-image {
+    z-index: 10000;
+}
+
+.app-image img {
+    width: 100%;
+    z-index: 10000;
+}
+
+.corona-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.corona-sec h1 {
+    font-size: 3rem;
+}
+
+.app-button {
+    width: 25%;
+    text-align: center;
+}
+
+.react-shape {
+    position: relative;
+    z-index: 100;
+}
+
+.shape-position {
+    position: absolute;
+    z-index: -1;
+}
+
+.shape-position img {
+    width: 35%;
+}
+
+.shape-position-2 {
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 45%;
+}
+
+.shape-position-2 img {
+    width: 20%;
+}
+
+.shape-position-3 {
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 1%;
+}
+
+.shape-position-3 img {
+    width: 20%;
+}
+
+
+/* corona section ends here  */
+
+.text-red {
+    color: red;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    background-color: black;
+}
+
+.footer-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: wheat;
+}
+
+#footer-header {
+    margin-top: 1rem;
+}
+
+.footer-container p {
+    color: white;
+    font-size: small;
+}
+
+#footer-perameter {
+    text-align: center;
+    margin-top: 1rem;
+}
